@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato&display=swap');
+@import url('https://fonts.cdnfonts.com/css/comic-sans');
+@import url('https://fonts.cdnfonts.com/css/nimbus-sans-l');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&family=Roboto:wght@900&display=swap');
+* {
+    
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-attachment: fixed;
+    background: #191c1a;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background: rgb(0,0,0);
+
+    color: #fff;
+    text-align: center;
+}
+nav{
+    background: rgb(0,0,0);
+
+    height: 20;
+    font-size: 22px;
+}
+
+footer {
+    background-color: #000;
+    height: 35px;
+}
+a{
+    text-decoration: none;
+    color: #c0c0c0;
+
+}
+.banner{
+    width: 100%;
+}
+.categories {
+    display: inline-block;
+    width: 100%;
+    word-spacing: 1.9in;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    padding: 12px;
+    color: #fff;
+    position: relative;
+}
+.title {
+    font-family: 'Fjalla One', sans-serif;
+    padding-top: 3px;
+    display: inline-block;
+}
+.product_boxes {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+
+}
+.product_boxes2 {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+
+}
+.product_boxes3 {
+    width: 100%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+
+}
+.int {
+    padding-left: 3%;
+    padding-top: 50px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+
+.botao_compra {
+    font-weight: 550;
+    text-align: center;
+    position: relative;
+    text-align: center;
+    width: 92%;
+    background-color: #191c1a;
+    display: inline-block;
+    padding:  2.5%;
+    margin: auto;
+    border-radius: 9px;
+    font-family: 'Roboto',sans-serif;
+    transition: 200ms linear;  
+    color: #fff;
+    align-self: flex-end;
+    bottom: 2%;
+    
+}
+
+.botao_compra:hover {
+    bottom: 2.69%;
+    text-align: center;
+    width: 92%;
+    position: relative;
+    background-color:  rgb(214, 0, 0);
+    display: inline-block;
+    padding:  2.5%;
+    margin: auto;
+    border-radius: 9px;
+    font-family: 'Roboto',sans-serif;
+    box-shadow: 7px 10px 22px -10px rgba(0,0,0,0.75);
+  -moz-box-shadow: 7px 10px 22px -10px rgba(0,0,0,0.75);
+  box-shadow: 7px 10px 22px -10px rgba(0,0,0,0.75);
+    transition: 200ms linear;  
+}
+.price {
+    word-wrap: break-word;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 550;
+    margin-right: 12px;
+    margin-left: 20px;
+}
+
+.product {
+    margin: 30px;
+    background-color: #fff;
+    border-radius: 8px;
+    height: 500px;
+    width: 19%;
+    display: flex;
+    flex-direction: column;
+}
+.desc_prod1 {
+    padding-top: 9px;
+    font-weight:550;
+    font-size: 25px;
+    word-wrap: break-word;
+    position: relative;
+    margin-right: 12px;
+    margin-left: 20px;
+    text-align: left;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif; 
+    display: -webkit-box;
+    -webkit-line-clamp: 5; /* quantidade de linhas */
+    -webkit-box-orient: vertical; /* conteúdo será apresentado verticalmente */
+   height: 20%;
+   text-size-adjust: 20%;
+   -webkit-text-size-adjust: 20%;
+   overflow-wrap: break-word;
+
+}
+ h2 {
+    font-weight: 500;
+ }
+
+
+.product img {
+    position: relative;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 90%;
+    overflow: hidden;
+    margin: 0%;
+    padding: 0%;
+}
+.linha_fodas {
+    background-color: #c0c0c0;
+    height: 4px;
+    width: 97%;
+    border-radius: 10px;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+
+    
+}
+.moleta {
+    margin: auto;
+    padding: 0%;
+}
+
+
+footer {
+    bottom: 0%;
+    width: 100%;
+	height: 8%;
+    background-color:black;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;	
+	
+}
+.spacer{
+    height: 50px;
+}
+.outlet{
+    width: 100%;
+}
